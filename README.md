@@ -1,14 +1,12 @@
-#HOW TO USE THE ENVELOPS BUDGET API
+# HOW TO USE THE ENVELOPS BUDGET API
 
-##/api/envelops
+## /api/envelops
 
-Get Envelops (GET)
-`/api/envelops`
-Returns an array of envelops
+### Get Envelops (GET)
+`/api/envelops` Returns an array of envelops
 
-Add Envelop (POST)
-`/api/envelops`
-Returns envelop object
+### Add Envelop (POST)
+`/api/envelops` Returns envelop object
 
 Accepts:
 ```
@@ -18,13 +16,11 @@ body: {
 }
 ```
 
-Get Envelop (PUT)
-`/api/envelops/:id`
-Returns envelop object
+### Get Envelop (PUT)
+`/api/envelops/:id` Returns envelop object
 
-Edit Envelop (PUT)
-`/api/envelops/:id`
-Returns envelop object
+### Edit Envelop (PUT)
+`/api/envelops/:id` Returns envelop object
 
 Accepts:
 ```
@@ -34,13 +30,11 @@ body: {
 }
 ```
 
-Delete Envelop (DELETE)
-`/api/envelops/:id`
-Returns a succesful status
+### Delete Envelop (DELETE)
+`/api/envelops/:id` Returns a succesful status
 
-Budget Transfer between envelops (PUT)
-`/api/envelops/:from/:to`
-Returns successful status and message
+### Budget Transfer between envelops (PUT)
+`/api/envelops/:from/:to` Returns successful status and message
 
 Accepts:
 ```
@@ -49,18 +43,16 @@ body: {
 }
 ```
 
-##/api/balance
+## /api/balance
 
-Get Balance (GET)
-`/api/balance`
-Returns balance object
+### Get Balance (GET)
+`/api/balance` Returns balance object
 
-Edit Balance (PUT)
-`/api/balance`
+### Edit Balance (PUT)
+`/api/balance` Returns balance object
 Accepts:
 ```
   body: { 
     balance: [balance] 
   }
 ```
-Returns balance object
